@@ -1,0 +1,57 @@
+h1 {
+    color: red;
+}
+
+#display {
+    align-items: center;
+    text-align: right;
+}
+
+#display h1 {
+    color: aliceblue;
+}
+
+.calculator {
+    margin: auto;
+    box-shadow: 0 8px 50px -7px black;
+    background: #3A4655;
+    width: 400px;
+    padding: 20px;
+}
+
+.button-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#blueButtons button {
+    background-color: aqua;
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.leftBlueButtons {
+    display: block;
+    text-align: right;
+}
+
+#leftBlueButtons button {
+    display: flex; 
+}
+
+#darkBlueButtons button {
+    background-color: darkblue;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    align-items: center;
+}
